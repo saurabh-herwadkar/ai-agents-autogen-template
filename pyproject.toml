@@ -1,0 +1,29 @@
+[project]
+name = "ai-agents-autogen-template"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Your Name",email = "you@example.com"}
+]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<=3.13"
+pyautogen="^0.8.0"
+python-dotenv = "^1.0.1"
+agentops = "^0.3.26"
+openai="^1.65.4"
+
+
+
+[tool.poetry]
+packages = [{include = "ai_agents_autogen_template", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.scripts]
+run-agents = "ai_agents_autogen_template.main:run"

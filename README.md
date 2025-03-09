@@ -1,2 +1,6 @@
-# ai-agents-autogen-template
-ai-agents-autogen-template
+
+
+###Commands to run
+
+poetry install
+poetry run run-job-posting-crew 
