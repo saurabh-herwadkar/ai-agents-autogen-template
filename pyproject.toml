@@ -13,6 +13,7 @@ pyautogen="^0.8.0"
 python-dotenv = "^1.0.1"
 agentops = "^0.3.26"
 openai="^1.65.4"
+autogen-agentchat="^0.4.8"
 
 
 
